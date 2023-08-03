@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Repair Service Request</title>
+</head>
+<body>
+  <h1>Repair Service Request</h1>
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="device">Device Type:</label>
+    <input type="text" id="device" name="device" required>
+    <br>
+    <label for="problem">Problem Description:</label>
+    <textarea id="problem" name="problem" required></textarea>
+    <br>
+    <button type="submit">Submit Request</button>
+  </form>
+</body>
+</html>
